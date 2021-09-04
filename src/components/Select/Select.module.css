@@ -1,0 +1,17 @@
+.select{
+    border: 1px solid black;
+        display: inline-block;
+    min-width: 80px;
+    min-height: 20px;
+}
+
+.span {
+    border: 2px solid green;
+        position: absolute ;
+    padding: 5px;
+
+}
+.item.selected{
+    background-color: aquamarine;
+    color: white;
+}
