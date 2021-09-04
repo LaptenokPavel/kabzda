@@ -6,6 +6,7 @@ import {Rating, RatingValueType} from "./components/Rating/Rating";
 import {ControlledCheckbox, ControlledInput, ControlledSelect} from "./components/Input/Input";
 import {SelectHandMade} from "./components/Select/Select";
 import {reducer} from "./reducer";
+import { Clock } from './components/Clock/Clock';
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
                     {titleTown: 'Kiev', value: '3'}]}
                 onClickSelect={onClickSelect}
                             />
+            <Clock/>
         </div>
     );
 }
